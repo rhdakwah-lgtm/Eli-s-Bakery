@@ -1,0 +1,8 @@
+{
+  "name": "Eli's Brownies",
+  "description": "Brownies panggang cokelat murni lumer dengan taburan almond renyah dalam kemasan kraft elegan. Harga spesial Rp 50.000 per kotak, pesan mudah via WhatsApp 085695632300.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
