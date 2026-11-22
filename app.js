@@ -323,11 +323,17 @@ function initFaqAccordion() {
   });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+function initApp() {
   syncCanonicalAndOgUrl();
   initImageFallbacks();
   initMobileNavigation();
   initProductTabs();
   initOrderConfigurator();
   initFaqAccordion();
-});
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initApp);
+} else {
+  initApp();
+}

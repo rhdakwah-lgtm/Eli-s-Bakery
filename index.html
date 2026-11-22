@@ -18,7 +18,7 @@
       content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
     />
     <meta name="theme-color" content="#1B110D" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="./favicon.ico" />
 
     <!-- OpenGraph / Facebook / WhatsApp Preview -->
     <meta property="og:type" content="product" />
@@ -29,7 +29,7 @@
       property="og:description"
       content="Sensasi cokelat murni yang lumer di mulut dengan taburan almond renyah. Dikemas elegan dalam kotak kraft berjendela, pas untuk hantaran dan waktu santai Anda."
     />
-    <meta property="og:image" content="/assets/aistudio/Eli_s_Brownies_Luxury_Promo_deabd1b6.png" />
+    <meta property="og:image" content="./assets/aistudio/Eli_s_Brownies_Luxury_Promo_deabd1b6.png" />
     <meta
       property="og:image:alt"
       content="Eli's Brownies - Brownies cokelat murni taburan almond dalam kemasan kotak kraft elegan harga Rp 50.000"
@@ -44,7 +44,7 @@
       name="twitter:description"
       content="Sensasi cokelat murni yang lumer di mulut dengan taburan almond renyah. Dikemas elegan, harga spesial Rp 50.000. Pesan langsung via WhatsApp 085695632300."
     />
-    <meta name="twitter:image" content="/assets/aistudio/Eli_s_Brownies_Luxury_Promo_deabd1b6.png" />
+    <meta name="twitter:image" content="./assets/aistudio/Eli_s_Brownies_Luxury_Promo_deabd1b6.png" />
 
     <!-- Editorial Typography: Playfair Display & Plus Jakarta Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -54,8 +54,8 @@
       rel="stylesheet"
     />
 
-    <!-- Pure CSS Stylesheet -->
-    <link rel="stylesheet" href="/styles.css" />
+    <!-- Pure CSS Stylesheet (Relative path for root & subpath hosting) -->
+    <link rel="stylesheet" href="./styles.css" />
 
     <!-- Structured Data (SEO, GEO & AEO): Bakery, Product, and FAQPage -->
     <script type="application/ld+json">
@@ -67,7 +67,7 @@
             "@id": "#business",
             "name": "Eli's Brownies",
             "description": "Produsen brownies panggang artisanal berbahan cokelat murni yang lumer di mulut dengan taburan irisan almond renyah, dikemas dalam kotak kraft berjendela elegan untuk hantaran maupun konsumsi pribadi.",
-            "image": "/assets/aistudio/Eli_s_Brownies_Luxury_Promo_deabd1b6.png",
+            "image": "./assets/aistudio/Eli_s_Brownies_Luxury_Promo_deabd1b6.png",
             "telephone": "+6285695632300",
             "priceRange": "Rp 50.000",
             "servesCuisine": "Artisanal Chocolate Brownies & Bakery",
@@ -82,7 +82,7 @@
             "@type": "Product",
             "@id": "#product",
             "name": "Eli's Brownies Cokelat Murni Almond",
-            "image": "/assets/aistudio/Eli_s_Brownies_Luxury_Promo_deabd1b6.png",
+            "image": "./assets/aistudio/Eli_s_Brownies_Luxury_Promo_deabd1b6.png",
             "description": "Brownies panggang dengan sensasi cokelat murni yang lumer di mulut dan taburan almond renyah di atasnya. Dikemas dalam kotak kraft elegan berjendela transparan, sangat pas untuk hantaran atau menemani waktu santai.",
             "brand": {
               "@type": "Brand",
@@ -169,7 +169,7 @@
         <a href="#top" aria-label="Eli's Brownies" class="brand-link">
           <img
             id="brand-logo-img"
-            src="/assets/aistudio/Eli_s_Bakery_1024x1024_acfda505.jpg"
+            src="./assets/aistudio/Eli_s_Bakery_1024x1024_acfda505.jpg"
             alt="Logo Eli's Bakery"
             referrerpolicy="no-referrer"
             class="brand-logo-img"
@@ -329,7 +329,7 @@
               <figure class="promo-figure">
                 <img
                   id="promo-img"
-                  src="/assets/aistudio/Eli_s_Brownies_Luxury_Promo_deabd1b6.png"
+                  src="./assets/aistudio/Eli_s_Brownies_Luxury_Promo_deabd1b6.png"
                   alt="Eli's Brownies - Brownies panggang cokelat murni dengan taburan almond renyah dalam kemasan kotak kraft elegan harga spesial Rp 50.000"
                   referrerpolicy="no-referrer"
                   class="promo-img"
@@ -546,6 +546,31 @@
                   </div>
                 </div>
               </article>
+
+              <!-- Momen Pilihan (Occasion Cards) -->
+              <div class="occasions-grid" aria-label="Rekomendasi momen penyajian">
+                <div class="occasion-card">
+                  <p class="occasion-index">01. Hantaran Keluarga</p>
+                  <p class="occasion-text">
+                    Kemasan kraft berjendela siap bawa tanpa perlu pembungkus tambahan untuk
+                    kunjungan keluarga.
+                  </p>
+                </div>
+                <div class="occasion-card">
+                  <p class="occasion-index">02. Jamuan &amp; Kantor</p>
+                  <p class="occasion-text">
+                    Porsi 8&ndash;10 potong rapi, pas menjadi sajian rapat maupun bingkisan apresiasi
+                    rekan kerja.
+                  </p>
+                </div>
+                <div class="occasion-card">
+                  <p class="occasion-index">03. Waktu Santai</p>
+                  <p class="occasion-text">
+                    Manis cokelat murni yang terukur, selaras dinikmati bersama seduhan kopi atau
+                    teh hangat.
+                  </p>
+                </div>
+              </div>
             </div>
 
             <!-- Right 5 Columns: GEO & AEO Structured Fact Matrix -->
@@ -620,6 +645,29 @@
               Tidak perlu registrasi akun. Pilih jumlah kotak dan keperluan Anda, lalu kirim format
               pesanan otomatis ke WhatsApp resmi 0856-9563-2300.
             </p>
+          </div>
+
+          <!-- 3-Step Order Clarity Bar -->
+          <div class="steps-strip" aria-label="Alur pemesanan tiga langkah">
+            <div class="step-item">
+              <span class="step-num">Langkah 01</span>
+              <p class="step-title">Pilih Jumlah Kotak</p>
+              <p class="step-desc">Atur jumlah pesanan mulai dari 1 kotak hingga paket acara.</p>
+            </div>
+            <div class="step-item">
+              <span class="step-num">Langkah 02</span>
+              <p class="step-title">Tentukan Keperluan</p>
+              <p class="step-desc">
+                Tambahkan catatan kartu ucapan jika ditujukan sebagai hantaran.
+              </p>
+            </div>
+            <div class="step-item">
+              <span class="step-num">Langkah 03</span>
+              <p class="step-title">Kirim ke WhatsApp</p>
+              <p class="step-desc">
+                Konfirmasi langsung dengan admin di 0856-9563-2300 tanpa antre.
+              </p>
+            </div>
           </div>
 
           <div class="order-grid">
@@ -1138,6 +1186,6 @@
       </div>
     </footer>
 
-    <script type="module" src="/app.js"></script>
+    <script type="module" src="./app.js"></script>
   </body>
 </html>
